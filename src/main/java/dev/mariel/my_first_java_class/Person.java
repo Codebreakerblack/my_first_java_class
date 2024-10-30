@@ -27,4 +27,11 @@ public class Person {
         System.out.println("Gender: " + gender);
     }
 
+    public String getFirstName() {return firstName;}
+    public String getLastName() {return lastName;}
+    public String getIdNumber() {return idNumber;}
+    public int getBirthYear() {return birthYear;}
+    public String getCountryOfBirth() {return countryOfBirth;}
+    public char getGender() {return gender;}
+
 }
