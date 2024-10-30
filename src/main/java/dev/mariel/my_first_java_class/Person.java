@@ -25,7 +25,6 @@ public class Person {
         System.out.println("Birth Year: " + birthYear);
         System.out.println("Country of Birth: " + countryOfBirth);
         System.out.println("Gender: " + gender);
-        
     }
 
 }

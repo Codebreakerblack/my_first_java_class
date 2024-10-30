@@ -1,17 +1,12 @@
 package dev.mariel.my_first_java_class;
 
-/**
- * Hello world!
- */
 public final class App {
-    private App() {
-    }
-
-    /**
-     * Says hello to the world.
-     * @param args The arguments of the program.
-     */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Person person1 = new Person("Mariel", "Blanco", "123456", 1990, "Venezuela", 'M');
+        Person person2 = new Person("Dany", "Longa", "654321", 1988, "Venezuela", 'H');
+
+        person1.print();
+        System.out.println();
+        person2.print();
     }
 }
